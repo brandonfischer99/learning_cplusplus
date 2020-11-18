@@ -5,7 +5,7 @@ int main()
 {
    std::vector<int> v1(1,2);
    std::vector<int> v2{ 1,2 };
-   std::cout << v1.size() << v2.size() << endl;
+   std::cout << v1.size() << v2.size() << std::endl;
    return 0;
 }
 
